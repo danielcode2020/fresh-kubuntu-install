@@ -1,3 +1,6 @@
+**Tested with:**
+- [ ] Kubuntu 24.04.3
+
 **Development Environment Setup**
 
 This repository contains two Bash scripts to quickly set up a fresh ubuntu machine for development and work.
