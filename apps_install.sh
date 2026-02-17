@@ -22,7 +22,10 @@ sudo snap install teams-for-linux
 sudo snap install slack --classic
 sudo snap install obsidian --classic
 sudo snap install telegram-desktop
-sudo snap install pinta
+
+sudo add-apt-repository ppa:pinta-maintainers/pinta-stable
+sudo apt-get update
+sudo apt-get install pinta
 
 echo "Installing Brave Browser..."
 curl -fsS https://dl.brave.com/install.sh | sh
