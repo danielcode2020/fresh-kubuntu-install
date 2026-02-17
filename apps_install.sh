@@ -10,7 +10,6 @@ sudo apt install -y \
   curl \
   git \
   maven \
-  pinta \
   mpv \
   unzip \
   lsb-release \
