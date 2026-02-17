@@ -8,8 +8,6 @@ sudo apt upgrade -y
 echo "Installing APT packages..."
 sudo apt install -y \
   curl \
-  snapd \
-  telegram-desktop \
   git \
   maven \
   pinta \
@@ -23,6 +21,8 @@ sudo snap install intellij-idea --classic
 sudo snap install teams-for-linux
 sudo snap install slack --classic
 sudo snap install obsidian --classic
+sudo snap install telegram-desktop
+sudo snap install pinta
 
 echo "Installing Brave Browser..."
 curl -fsS https://dl.brave.com/install.sh | sh
