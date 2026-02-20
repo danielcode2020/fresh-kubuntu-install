@@ -9,6 +9,7 @@ echo "Installing APT packages..."
 sudo apt install -y \
   curl \
   git \
+  openssh-client \
   maven \
   mpv \
   unzip \
