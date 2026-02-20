@@ -21,10 +21,10 @@ chmod +x docker_install.sh apps_install.sh
 
 Run Docker installation:
 ```bash
-sudo ./install_docker.sh
+sudo ./docker_install.sh
 ```
 
 Run development apps installation:
 ```bash
-sudo ./install_apps.sh
+sudo ./apps_install.sh
 ```
