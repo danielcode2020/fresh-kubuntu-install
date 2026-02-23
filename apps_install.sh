@@ -61,6 +61,7 @@ echo "Setup complete ✅"
 # openvpn3 config-acl --show --lock-down true --grant root --config CloudConnexa
 
 ### Useful alias for vpn start and check status
+### to be permament must : nano /.bashrc and add them to the file
 # alias vpnstatus='sudo systemctl status openvpn3-session@CloudConnexa.service'
 # alias vpnup='sudo systemctl enable --now openvpn3-session@CloudConnexa.service'
 
