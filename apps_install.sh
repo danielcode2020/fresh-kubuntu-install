@@ -64,4 +64,5 @@ echo "Setup complete ✅"
 ### to be permament must : nano /.bashrc and add them to the file
 # alias vpnstatus='sudo systemctl status openvpn3-session@CloudConnexa.service'
 # alias vpnup='sudo systemctl enable --now openvpn3-session@CloudConnexa.service'
+# alias vpndown='sudo pkill -f openvpn3'
 
