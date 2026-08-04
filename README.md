@@ -30,6 +30,18 @@ Run development apps installation:
 ```bash
 sudo ./apps_install.sh
 ```
+# Install apps using .dep packages instead of snap
+
+**Slack**
+
+Download to your `/Downloads' .deb package from slack official website : https://slack.com/downloads/instructions/linux?ddl=1&build=deb
+
+`cd` into  `/Downloads`
+
+Execute :
+```bash
+sudo apt install ./slack-desktop-*.deb
+```
 
 # High CPU when using ThinkVision monitor ubuntu how to address 
 
