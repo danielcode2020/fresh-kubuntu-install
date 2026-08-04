@@ -19,7 +19,6 @@ sudo apt install -y \
 echo "Installing Snap packages..."
 sudo snap install intellij-idea --classic
 sudo snap install teams-for-linux
-sudo snap install slack --classic
 sudo snap install obsidian --classic
 sudo snap install telegram-desktop
 sudo snap install pinta
